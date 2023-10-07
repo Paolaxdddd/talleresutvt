@@ -19,6 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('ruta',[VistaController::class,'vista']);
-Route::get('product/list',[ProductController::class,'index']);
 
 
